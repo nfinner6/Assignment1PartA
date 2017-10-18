@@ -9,7 +9,7 @@ public class ModuleDetails {
     private String moduleID;
     private List<StudentDetails> students;
 
-    public ModuleDetails(String mName, String mID, List<StudentDetails> students)
+    public ModuleDetails(String mName, String mID)
     {                              
         this.moduleName= mName;         
         this.moduleID = mID;

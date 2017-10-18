@@ -11,11 +11,10 @@ public class StudentDetails {
     private String courseCode;
     
     
-    public StudentDetails(String studentName, int studentAge, String studentDOB)
+    public StudentDetails(String studentName, int studentAge)
     {                         
         this.name = studentName;           
         this.age = studentAge;
-        this.DOB = studentDOB;
         setUsername(studentName, studentAge);
     }
     

@@ -8,7 +8,7 @@ public class StudentUsernameTest {
 
 @Test
 	public void testGetUserName() {
-		StudentDetails student = new StudentDetails("Victoria Campbell", 22, "18/09/1995");
+		StudentDetails student = new StudentDetails("Victoria Campbell", 22);
 		String expected = student.getUsername();
 		assertEquals(expected, "Victoria Campbell22");	
 	}
